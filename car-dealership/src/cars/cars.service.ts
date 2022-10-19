@@ -10,13 +10,7 @@ import { Car } from './interfaces/car.interface';
 
 @Injectable()
 export class CarsService {
-  private cars: Car[] = [
-    // {
-    //     id: uuid(),
-    //     brand: 'Toyota',
-    //     model: 'Corolla'
-    // },
-  ];
+  private cars: Car[] = [];
 
   findAll() {
     return this.cars;
